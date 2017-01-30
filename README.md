@@ -94,6 +94,7 @@ Interpreter pattern provides a way to evaluate language grammar or expression. T
 
 
 Resoureces
+
 https://www.youtube.com/watch?v=vNHpsC5ng_E&index=1&list=PLF206E906175C7E07
 https://dzone.com/refcardz/design-patterns
 http://www.tasarimdesenleri.com/jsp/tasdesincele/factoryMethod.jsp
