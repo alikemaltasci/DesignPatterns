@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.11" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.designpatterns.creational.abstractfactory.PlaneEngine" 
+    project="DesignPatterns" file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/PlaneEngine.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="112" x="195" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.designpatterns.creational.abstractfactory.PassengerPlane" 
+    project="DesignPatterns" 
+    file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/PassengerPlane.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="95" width="118" x="347" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.designpatterns.creational.abstractfactory.VehicleFactory" 
+    project="DesignPatterns" 
+    file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/VehicleFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="113" width="162" x="811" y="172"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.designpatterns.creational.abstractfactory.CombatPlane" 
+    project="DesignPatterns" file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/CombatPlane.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="101" x="505" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="com.designpatterns.creational.abstractfactory.Vehicle" 
+    project="DesignPatterns" file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/Vehicle.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="104" x="646" y="172"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.designpatterns.creational.abstractfactory.AbstractFactoryTest" 
+    project="DesignPatterns" 
+    file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/AbstractFactoryTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="95" width="143" x="904" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.designpatterns.creational.abstractfactory.SportCar" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/SportCar.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="95" width="89" x="646" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="com.designpatterns.creational.abstractfactory.Engine" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/Engine.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="252" y="255"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="com.designpatterns.creational.abstractfactory.CarEngine" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/CarEngine.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="95" width="112" x="43" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.designpatterns.creational.abstractfactory.CarFactory" 
+    project="DesignPatterns" file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/CarFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="113" width="162" x="771" y="325"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.designpatterns.creational.abstractfactory.FamilyCar" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/FamilyCar.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="95" width="89" x="775" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.designpatterns.creational.abstractfactory.PlaneFactory" 
+    project="DesignPatterns" file="/DesignPatterns/src/com/designpatterns/creational/abstractfactory/PlaneFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="113" width="162" x="973" y="325"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="14">    
+    <bendpoint x="1003" y="172"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <realization id="16">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="17">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="20">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="21">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="22">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <dependency id="23">    
+    <bendpoint x="780" y="172"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="25">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
