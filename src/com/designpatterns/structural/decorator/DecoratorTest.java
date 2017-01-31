@@ -1,6 +1,6 @@
 package com.designpatterns.structural.decorator;
 
-public class DecoratorTester {
+public class DecoratorTest {
 	
 	public static void main(String[] args){
 		
