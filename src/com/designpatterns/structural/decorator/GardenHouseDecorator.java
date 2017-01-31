@@ -1,8 +1,8 @@
 package com.designpatterns.structural.decorator;
 
-public class GardenHosueDecorator extends HouseDecorator{
+public class GardenHouseDecorator extends HouseDecorator{
 
-	public GardenHosueDecorator(House house) {
+	public GardenHouseDecorator(House house) {
 		super(house);
 	}
 
